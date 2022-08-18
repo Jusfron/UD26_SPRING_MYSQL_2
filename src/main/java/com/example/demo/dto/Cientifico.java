@@ -11,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Cientifico {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String id;
 	@Column(name = "nom_apels")
 	private String nomApels;
